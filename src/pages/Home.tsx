@@ -6,6 +6,7 @@ import YourTurn from '@components/YourTurn';
 import { useGameStore } from '@state/gameStore';
 import { useNewGameStore } from './NewGame/store';
 import { useAccount } from '@puzzlehq/sdk';
+import communityPicImg from '../assets/community.jpeg'; 
 
 function Home() {
   const [yourTurn, theirTurn, totalBalance] = useGameStore((state) => [
@@ -46,6 +47,10 @@ function Home() {
         <Button color='blue' size='sm'>
           Past Games
         </Button>
+      </div>
+  {/* Image at the bottom */}
+  <div className='mt-4 text-center'>
+        <img src={communityPicImg} alt="Community" className="mx-auto" />
       </div>
     </div>
   );

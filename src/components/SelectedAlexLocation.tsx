@@ -29,7 +29,7 @@ function SelectedAlexLocation({ answer, win }: SelectedAlexLocationProps) {
                             : 'text-primary-white'
                         }`}
           >
-            In the Weeds
+            Coding
           </div>
         )}
       </div>
@@ -62,7 +62,7 @@ function SelectedAlexLocation({ answer, win }: SelectedAlexLocationProps) {
                             : 'text-primary-white'
                         }`}
           >
-            Behind the Building
+            Concerting
           </div>
         )}
       </div>
